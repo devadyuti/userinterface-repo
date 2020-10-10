@@ -1,0 +1,274 @@
+@import "../common/common";
+
+.type {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: $color-transparent;
+    >label {
+        width: 100%;
+        display: block;
+        text-align: left;
+        float: left;
+        color: $color-black;
+        font-family: Open Sans, Sans-Serif;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    >input {
+        width: calc(100% - 2px);
+        line-height: 1.5rem;
+        display: block;
+        text-align: left;
+        float: left;
+        border: 1px solid $color-tan;
+        color: $color-grape;
+        font-family: Open Sans, Sans-Serif;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+}
+
+input[type="text"] {
+    &:required {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-required.png");
+            background-repeat: no-repeat;
+        }
+        &:valid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-valid.png");
+            background-repeat: no-repeat;
+        }
+    }
+    &:focus {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-invalid.png");
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+input[type="number"] {
+    &:required {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-required.png");
+            background-repeat: no-repeat;
+        }
+        &:valid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-valid.png");
+            background-repeat: no-repeat;
+        }
+    }
+    &:focus {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-invalid.png");
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+input[type="password"] {
+    &:required {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-required.png");
+            background-repeat: no-repeat;
+        }
+        &:valid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-valid.png");
+            background-repeat: no-repeat;
+        }
+    }
+    &:focus {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-invalid.png");
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+input[type="email"] {
+    &:required {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-required.png");
+            background-repeat: no-repeat;
+        }
+        &:valid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-valid.png");
+            background-repeat: no-repeat;
+        }
+    }
+    &:focus {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-invalid.png");
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+input[type="tel"] {
+    &:required {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-required.png");
+            background-repeat: no-repeat;
+        }
+        &:valid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-valid.png");
+            background-repeat: no-repeat;
+        }
+    }
+    &:focus {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-invalid.png");
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+input[type="date"] {
+    &:required {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-required.png");
+            background-repeat: no-repeat;
+        }
+        &:valid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-valid.png");
+            background-repeat: no-repeat;
+        }
+    }
+    &:focus {
+        &:invalid {
+            background-position: right top;
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            background-image: url("/images/icon-invalid.png");
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+input {
+    &::-webkit-input-placeholder {
+        color: $color-grape;
+        font-size: 0.85rem;
+    }
+    &:-moz-placeholder {
+        color: $color-grape;
+        font-size: 0.85rem;
+    }
+    &::-moz-placeholder {
+        color: $color-grape;
+        font-size: 0.85rem;
+    }
+    &:-ms-input-placeholder {
+        color: $color-grape;
+        font-size: 0.85rem;
+    }
+    &::-webkit-inner-spin-button {
+        opacity: 1;
+    }
+}
+
+input[placeholder] {
+    color: $color-grape;
+    font-size: 0.85rem;
+}
+
+.required {
+    color: $color-red;
+}
+
+.inputnote {
+    color: $color-black;
+    font-family: Open Sans, Sans-Serif;
+    font-size: 0.85rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    left: 1%;
+}
